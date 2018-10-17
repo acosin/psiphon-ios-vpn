@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		278AC4DA2175DBD500D6A493 /* psiphon_config.stub in Resources */ = {isa = PBXBuildFile; fileRef = 278AC4D92175DBD500D6A493 /* psiphon_config.stub */; };
+		278AC4DD2175DC7C00D6A493 /* embedded_server_entries.stub in Resources */ = {isa = PBXBuildFile; fileRef = 278AC4DB2175DC7B00D6A493 /* embedded_server_entries.stub */; };
+		278AC4DE2175DC7C00D6A493 /* psiphon_config.stub in Resources */ = {isa = PBXBuildFile; fileRef = 278AC4DC2175DC7B00D6A493 /* psiphon_config.stub */; };
 		440D75BE1F59E041005C603B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440D75BD1F59E041005C603B /* StoreKit.framework */; };
 		4435CC271F70566000F3A809 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4435CC261F70566000F3A809 /* SettingsViewController.m */; };
 		445F239620E1817C00D004E9 /* PsiphonAppReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 445F239520E1817C00D004E9 /* PsiphonAppReceipt.m */; };
@@ -86,7 +89,6 @@
 		6615A5EB1F58A95B00026C98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6615A5E81F58A95500026C98 /* Localizable.strings */; };
 		668AF9BF1E92CBD3008CAAAA /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668AF9BE1E92CBD3008CAAAA /* NetworkExtension.framework */; };
 		668AF9C01E92CBE0008CAAAA /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668AF9BE1E92CBD3008CAAAA /* NetworkExtension.framework */; };
-		963708A91F65D4810038894E /* Bourbon-Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 963708A81F65D4810038894E /* Bourbon-Oblique.otf */; };
 		9BFEC10661A7DC0402AF4B37 /* AsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEC6DEB0BE772BE801A9E6 /* AsyncOperation.m */; };
 		9BFEC1F0DA87B4E66C8CC4AA /* MoPubInterstitialAdControllerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFECF45CA0CAF6997411D22 /* MoPubInterstitialAdControllerWrapper.m */; };
 		9BFEC2458D1346F537E9089E /* Nullity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFECCCF429898FD903B69A6 /* Nullity.m */; };
@@ -132,10 +134,6 @@
 		EF652CD61F35224C002AFB48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF652CD31F35224C002AFB48 /* AppDelegate.m */; };
 		EF652CD71F35224C002AFB48 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF652CD51F35224C002AFB48 /* MainViewController.m */; };
 		EF652CDA1F352271002AFB48 /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF652CD91F352271002AFB48 /* PacketTunnelProvider.m */; };
-		EF6C1F521F59E46500709554 /* embedded_server_entries in Resources */ = {isa = PBXBuildFile; fileRef = EF6C1F501F59E46500709554 /* embedded_server_entries */; };
-		EF6C1F531F59E46500709554 /* embedded_server_entries in Resources */ = {isa = PBXBuildFile; fileRef = EF6C1F501F59E46500709554 /* embedded_server_entries */; };
-		EF6C1F541F59E46500709554 /* psiphon_config in Resources */ = {isa = PBXBuildFile; fileRef = EF6C1F511F59E46500709554 /* psiphon_config */; };
-		EF6C1F551F59E46500709554 /* psiphon_config in Resources */ = {isa = PBXBuildFile; fileRef = EF6C1F511F59E46500709554 /* psiphon_config */; };
 		EF743FCA1F99549000AC89A2 /* productIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF743FC31F99549000AC89A2 /* productIDs.plist */; };
 		EF743FCB1F99549000AC89A2 /* productIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF743FC31F99549000AC89A2 /* productIDs.plist */; };
 		EF90D7A1204F22C900228A63 /* timestamp_valid.c in Sources */ = {isa = PBXBuildFile; fileRef = EF90D78D204F22C900228A63 /* timestamp_valid.c */; };
@@ -214,6 +212,10 @@
 
 /* Begin PBXFileReference section */
 		01122727D6CE50B340C55DBE /* libPods-PsiphonVPN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PsiphonVPN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278AC4D92175DBD500D6A493 /* psiphon_config.stub */ = {isa = PBXFileReference; lastKnownFileType = text; path = psiphon_config.stub; sourceTree = "<group>"; };
+		278AC4DB2175DC7B00D6A493 /* embedded_server_entries.stub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = embedded_server_entries.stub; sourceTree = "<group>"; };
+		278AC4DC2175DC7B00D6A493 /* psiphon_config.stub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = psiphon_config.stub; sourceTree = "<group>"; };
+		278AC4DF2175DF0200D6A493 /* Bourbon-Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bourbon-Oblique.otf"; sourceTree = "<group>"; };
 		440D75BD1F59E041005C603B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		4435CC251F70566000F3A809 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		4435CC261F70566000F3A809 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
@@ -392,7 +394,6 @@
 		6651BE051F6B177000D65633 /* my */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = my; path = Strings/my.lproj/Localizable.strings; sourceTree = "<group>"; };
 		668AF9BE1E92CBD3008CAAAA /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		6B2646D9B515A2990796D972 /* Pods-PsiphonVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsiphonVPN.release.xcconfig"; path = "Pods/Target Support Files/Pods-PsiphonVPN/Pods-PsiphonVPN.release.xcconfig"; sourceTree = "<group>"; };
-		963708A81F65D4810038894E /* Bourbon-Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Bourbon-Oblique.otf"; sourceTree = "<group>"; };
 		9BFEC0419AD3808370915E01 /* PsiphonConfigUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsiphonConfigUserDefaults.h; sourceTree = "<group>"; };
 		9BFEC1C9F506CE1DF07306D2 /* NEBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBridge.h; sourceTree = "<group>"; };
 		9BFEC1E485FB857A0358ED94 /* UnionSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionSerialQueue.h; sourceTree = "<group>"; };
@@ -460,8 +461,6 @@
 		EF652CD81F352271002AFB48 /* PacketTunnelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
 		EF652CD91F352271002AFB48 /* PacketTunnelProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
 		EF652CDB1F365B8C002AFB48 /* SharedConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedConstants.h; sourceTree = "<group>"; };
-		EF6C1F501F59E46500709554 /* embedded_server_entries */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = embedded_server_entries; sourceTree = "<group>"; };
-		EF6C1F511F59E46500709554 /* psiphon_config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = psiphon_config; sourceTree = "<group>"; };
 		EF743FC31F99549000AC89A2 /* productIDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = productIDs.plist; sourceTree = "<group>"; };
 		EF90D78D204F22C900228A63 /* timestamp_valid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timestamp_valid.c; sourceTree = "<group>"; };
 		EF90D78E204F22C900228A63 /* timestamp_compare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timestamp_compare.c; sourceTree = "<group>"; };
@@ -653,6 +652,8 @@
 		4E0DCB101F28458100495781 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				278AC4DB2175DC7B00D6A493 /* embedded_server_entries.stub */,
+				278AC4DC2175DC7B00D6A493 /* psiphon_config.stub */,
 				4EC7CACD20E1844F0038B4E1 /* Profiling */,
 				EF90D78B204F22C900228A63 /* External */,
 				EF90D79E204F22C900228A63 /* ReactiveExtensions */,
@@ -668,14 +669,13 @@
 				9BFEC0419AD3808370915E01 /* PsiphonConfigUserDefaults.h */,
 				9BFEC584519C408D9D6D3FF1 /* PsiphonConfigUserDefaults.m */,
 				EFB3E62D1F66F23F004AAE8C /* Logging.h */,
-				EF6C1F501F59E46500709554 /* embedded_server_entries */,
-				EF6C1F511F59E46500709554 /* psiphon_config */,
 				EF639C2D1F8FCE2A009D6B42 /* PsiFeedbackLogger.h */,
 				EF639C2E1F8FCE2A009D6B42 /* PsiFeedbackLogger.m */,
 				9BFECC9B2B9F2BFBD4F8A47B /* UserDefaults.h */,
 				9BFEC31B61584FD2EAAF5DE6 /* Authorization.m */,
 				9BFEC673CE5EA236279F07BD /* Authorization.h */,
 				9BFEC4D609BFCD0DC812BDB3 /* Asserts.h */,
+				278AC4D92175DBD500D6A493 /* psiphon_config.stub */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -1004,7 +1004,7 @@
 		F136C2981F62E81F000D3EAB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				963708A81F65D4810038894E /* Bourbon-Oblique.otf */,
+				278AC4DF2175DF0200D6A493 /* Bourbon-Oblique.otf */,
 				CE26FC941BBDC7B800B83375 /* Assets.xcassets */,
 				F136C2941F62E3E1000D3EAB /* LaunchScreen.xib */,
 			);
@@ -1104,9 +1104,8 @@
 					};
 					CE26FC891BBDC7B800B83375 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = Q6HLNEX92A;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1203,16 +1202,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6615A5EA1F58A95500026C98 /* Localizable.strings in Resources */,
-				EF6C1F521F59E46500709554 /* embedded_server_entries in Resources */,
-				EF6C1F541F59E46500709554 /* psiphon_config in Resources */,
 				4E0774961F566B040097BC8C /* InAppSettings.bundle in Resources */,
 				CE26FC951BBDC7B800B83375 /* Assets.xcassets in Resources */,
 				445F24E720E1A5BA00D004E9 /* pkcs7-signed-data.asn1 in Resources */,
 				F136C2951F62E3E1000D3EAB /* LaunchScreen.xib in Resources */,
+				278AC4DD2175DC7C00D6A493 /* embedded_server_entries.stub in Resources */,
 				CE4E9BC01BBEECF30060FF8B /* Psiphon.entitlements in Resources */,
 				445F24DE20E1A5BA00D004E9 /* pkcs7-signed-data-simplified.asn1 in Resources */,
+				278AC4DA2175DBD500D6A493 /* psiphon_config.stub in Resources */,
+				278AC4DE2175DC7C00D6A493 /* psiphon_config.stub in Resources */,
 				EF743FCA1F99549000AC89A2 /* productIDs.plist in Resources */,
-				963708A91F65D4810038894E /* Bourbon-Oblique.otf in Resources */,
 				9BFECE5505C42426FC9627C8 /* UserDefaults.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1221,10 +1220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6C1F551F59E46500709554 /* psiphon_config in Resources */,
 				CE4E9BC21BBEECFC0060FF8B /* PsiphonVPN.entitlements in Resources */,
 				6615A5EB1F58A95B00026C98 /* Localizable.strings in Resources */,
-				EF6C1F531F59E46500709554 /* embedded_server_entries in Resources */,
 				EF743FCB1F99549000AC89A2 /* productIDs.plist in Resources */,
 				9BFECF65871BB6B522C33F1E /* UserDefaults.h in Resources */,
 			);
@@ -1764,6 +1761,7 @@
 				CODE_SIGN_ENTITLEMENTS = Psiphon/Psiphon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 91;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -1792,6 +1790,7 @@
 				CODE_SIGN_ENTITLEMENTS = Psiphon/Psiphon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 91;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
